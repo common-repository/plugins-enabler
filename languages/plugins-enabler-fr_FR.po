@@ -1,0 +1,308 @@
+# Translation of the WordPress plugin plugins-enabler by imath (twitter.com/imath).
+# Copyright (C) 2010 imath (twitter.com/imath)
+# This file is distributed under the same license as plugins-enabler package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plugins-enabler 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugins-enabler\n"
+"POT-Creation-Date: 2013-10-21 19:41:03+00:00\n"
+"PO-Revision-Date: 2013-10-21 21:42+0100\n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
+"Language-Team: imath\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+
+#: plugins-enabler.php:120 plugins-enabler.php:121
+msgid "Plugins Enabler Manager"
+msgstr "Plugins Enabler Manager"
+
+#: plugins-enabler.php:139 plugins-enabler.php:140
+msgid "Update Plugins Enabler"
+msgstr "Mettre à jour Plugins Enabler"
+
+#: plugins-enabler.php:165
+msgid "Oops, Plugins Enabler requires at least WordPress 3.7, please upgrade !"
+msgstr ""
+"Oops, Plugins Enabler a besoin de WordPress 3.7, merci de mettre à jour "
+"WordPress !"
+
+#: plugins-enabler.php:169
+msgid ""
+"Thanks for upgrading Plugins Enabler, you need to decide whether to upgrade "
+"plugins visibility settings for your sites, <a href=\"%s\">please read this</"
+"a>"
+msgstr ""
+"Merci d&#39;avoir mis à jour Plugins Enabler, vous devez maintenant décider "
+"si vous souhaitez mettre à jour les réglages de visibilité pour les plugins, "
+"<a href=\"%s\">merci de lire ceci</a>"
+
+#: plugins-enabler.php:174
+msgid ""
+"The goal of Plugins Enabler is to let admin view enabled plugins in their "
+"plugins menu, please check your <a href=\"%s\">network options</a> to allow "
+"the plugins menu for sites."
+msgstr ""
+"L&#39;objectif de Plugins Enabler est de permettre aux administrateurs "
+"classiques de manager les plugins que vous avez autorisé dans leur site, "
+"merci de vérifier vos <a href=\"%s\">options de réseau</a> afin de débloquer "
+"le menu Plugins pour les sites."
+
+#: plugins-enabler.php:227
+msgid "Plugins Enabler Upgrade"
+msgstr "Plugins Enabler - Mise à jour"
+
+#: plugins-enabler.php:232
+msgid "Warning"
+msgstr "Attention"
+
+#: plugins-enabler.php:233
+msgid ""
+"Using this tool will loop through the old plugin&#39;s table in order to "
+"create a new option in each site of the network. "
+msgstr ""
+"En utilisant cet outil, une boucle va traverser l&#39;ancienne table de "
+"votre base de données afin de créer une nouvelle option dans chacun des "
+"sites de votre réseau."
+
+#: plugins-enabler.php:234
+msgid ""
+"Please backup your files and database before upgrading. If you are not sure, "
+"you can skip this step, by manually resetting plugins visibility in Plugins "
+"Enabler manager plugins submenu."
+msgstr ""
+"Merci de faire une sauvegarde de vos fichiers et de votre base de données "
+"avant de mettre à jour les paramètres de visibilités des plugins. Si vous "
+"n&#39;êtes pas sûr de vous, vous pouvez passer cette étape. Il s&#39;agira "
+"alors de répercuter les réglages de visibilité manuellement depuis le sous "
+"menu Plugin Enabler Manager du menu Plugins."
+
+#: plugins-enabler.php:238
+msgid "Skip this step"
+msgstr "Passer cette étape"
+
+#: plugins-enabler.php:239
+msgid "Upgrade"
+msgstr "Mettre à jour"
+
+#: plugins-enabler.php:249
+msgid ""
+"Preference saved, now you can <a href=\"%s\">manage plugins visibility for "
+"regular admins</a>."
+msgstr ""
+"Préférence sauvegardée. Désormais, vous pouvez <a href=\"%s\">gérer la "
+"visibilité des plugins</a> pour les administrateurs classiques."
+
+#: plugins-enabler.php:256
+msgid "Processing.. Please wait"
+msgstr "Traitement en cours..."
+
+#: plugins-enabler.php:264
+msgid ""
+"Upgrade done, now you can <a href=\"%s\">manage plugins visibility for "
+"regular admins</a>."
+msgstr ""
+"La mise à jour s&#39;est bien déroulée, vous pouvez à tout moment <a href="
+"\"%s\">ajuster la visibilité des plugins</a> pour les administrateurs "
+"classiques"
+
+#: plugins-enabler.php:265
+msgid ""
+"You can also drop the table named <code>%s</code> as it&#39;s not used "
+"anymore"
+msgstr ""
+"Vous pouvez aussi supprimer la table dont le nom est <code>%s</code> dans la "
+"mesure où elle n&#39;est plus utilisée."
+
+#: plugins-enabler.php:293
+msgid "Trying to cheat ?"
+msgstr "Tricheur !"
+
+#: plugins-enabler.php:294
+msgid "Loading Sites"
+msgstr "Chargement des sites en cours"
+
+#: plugins-enabler.php:295
+msgid "Loading Plugins"
+msgstr "Chargement des plugins en cours"
+
+#: plugins-enabler.php:332 plugins-enabler.php:405 plugins-enabler.php:452
+msgid "You do not have the capacity to do that!"
+msgstr "Vous ne pouvez pas faire ça !"
+
+#: plugins-enabler.php:335
+msgid "Oops, this plugin requires at least WordPress 3.7, please upgrade !"
+msgstr ""
+"Oops, ce plugin a besoin de WordPress 3.7, merci de mettre à jour WordPress !"
+
+#: plugins-enabler.php:352
+msgid "Plugins enabler does not support large networks"
+msgstr ""
+"Plugins Enabler ne supporte pas les réseaux contenant plus de 1000 blogs"
+
+#: plugins-enabler.php:411
+msgid "Site id not set or no plugins found"
+msgstr ""
+"L&#39;id du site n&#39;a pas été reconnu ou aucun plugin n&#39;a été trouvé"
+
+#: plugins-enabler.php:457
+msgid "The blog you want to manage the plugins for is not defined"
+msgstr ""
+"Le site pour lequel vous souhaitez manager les plugins n&#39; pas défini."
+
+#: plugins-enabler.php:466
+msgid "Plugins visibility saved"
+msgstr "Visibilité du plugin sauvegardée"
+
+#: plugins-enabler.php:485
+msgid "Edit regular Admins plugins visibility"
+msgstr "Modifier la visibilité des plugins pour les administrateurs classiques"
+
+#: plugins-enabler.php:488
+msgid "IDs"
+msgstr "IDs"
+
+#: plugins-enabler.php:489
+msgid "Sites"
+msgstr "Sites"
+
+#: plugins-enabler.php:490
+msgid "Admin emails"
+msgstr "Courriels de l&#39;admin"
+
+#: plugins-enabler.php:500
+msgid "Load more sites"
+msgstr "Charger plus de sites"
+
+#: plugins-enabler.php:539
+msgid "Edit Plugins visibility"
+msgstr "Modifier la visibilité des plugins"
+
+#: plugins-enabler.php:544
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: plugins-enabler.php:549
+msgid "Visit"
+msgstr "Visiter"
+
+#: plugins-enabler.php:561
+msgid "Managing regular Admins plugin visibility for site:"
+msgstr ""
+"Modification de la visibilité des plugins pour les administrateurs "
+"classiques du site :"
+
+#: plugins-enabler.php:564
+msgid "Plugin Name"
+msgstr "Nom du plugin"
+
+#: plugins-enabler.php:564
+msgid "Plugin Description"
+msgstr "Description du plugin"
+
+#: plugins-enabler.php:564
+msgid "Plugin Status"
+msgstr "Etat du plugin"
+
+#: plugins-enabler.php:581
+msgid "Active"
+msgstr "Actif"
+
+#: plugins-enabler.php:583
+msgid "Inactive"
+msgstr "Inactif"
+
+#: plugins-enabler.php:594
+msgid "Save visibility"
+msgstr "Enregistrer la visibilité"
+
+#: plugins-enabler.php:598
+msgid "Back to sites list"
+msgstr "Revenir à la liste des sites"
+
+#. Plugin Name of the plugin/theme
+msgid "Plugins Enabler"
+msgstr "Plugins Enabler"
+
+#. Plugin URI of the plugin/theme
+msgid "http://imathi.eu/2013/10/22/plugins-enabler-2-0/"
+msgstr "http://imathi.eu/2013/10/22/plugins-enabler-2-0/"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a granular control on the visibility of plugins in your network "
+"(Multisite)"
+msgstr ""
+"Maîtrisez la visibilité de vos plugins de manière plus granulaire dans votre "
+"réseau (Multisite)"
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr "imath"
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu"
+msgstr "http://imathi.eu"
+
+#~ msgid "OOps, please choose 1 blog!"
+#~ msgstr "OOps, merci de choisir un blog de la liste!"
+
+#~ msgid ""
+#~ "Choose the blog you wish to manage his plugin list, then click on the "
+#~ "&quot;Manage&quot; Button."
+#~ msgstr ""
+#~ "Sélectionnez le blog pour lequel vous souhaitez paramétrer sa liste de "
+#~ "plugins disponibles, ensuite cliquez sur le bouton &quot;Manager&quot;"
+
+#~ msgid "Manage"
+#~ msgstr "Manager"
+
+#~ msgid "Blog ID"
+#~ msgstr "Blog ID"
+
+#~ msgid "Blog Name"
+#~ msgstr "Nom"
+
+#~ msgid "Blog Url"
+#~ msgstr "Url"
+
+#~ msgid "Mail Admin"
+#~ msgstr "Mail Admin"
+
+#~ msgid "Managing plugins for <b>%s blog</b>"
+#~ msgstr "Gestion de la liste de plugins pour le <b>blog %s</b>"
+
+#~ msgid "Open in a new window"
+#~ msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#~ msgid "Enable checked plugins"
+#~ msgstr "Autoriser les plugins cochés"
+
+#~ msgid "Plugins list updated for %s blog"
+#~ msgstr "Liste de plugins mise à jour pour le blog %s"
+
+#~ msgid "OOps something went wrong, Please try again."
+#~ msgstr "OOps, une erreur s'est produite, merci de recommencer l'opération"
+
+#~ msgid ""
+#~ "OOps, this plugin requires that you activate the network tool of WordPress"
+#~ msgstr "OOps, ce plugin nécessite que WordPress fonctionne en mode multi."
+
+#~ msgid "No plugins to show"
+#~ msgstr "Aucune extension"
+
+#~ msgid "Version %s"
+#~ msgstr "Version %s"
+
+#~ msgid "Visit author homepage"
+#~ msgstr "Visiter la page de l'auteur"
+
+#~ msgid "By %s"
+#~ msgstr "Par %s"
